@@ -50,3 +50,6 @@ function operate(a, b, operator)
 
     return result;
 }
+
+const display = document.querySelector(".result-section");
+display.textContent = "Hello";
