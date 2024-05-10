@@ -78,10 +78,11 @@ const buttonClickEventHandler = function (e) {
         showInputOnDisplay(inputData);
     }
     else if (clickedItem == '=') {
-        
+
         if(operator === null) {
             return;
         }
+        
         secondNumber = getNumberFromDisplay();
         let result = operate(firstNumber, secondNumber, operator);
         operator = null;
