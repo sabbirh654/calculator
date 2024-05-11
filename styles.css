@@ -39,6 +39,42 @@ body {
     justify-content: space-between;
 }
 
+button:hover {
+    background-color: gold;
+}
+
+#plus {
+    background-color: aquamarine;
+}
+
+#minus {
+    background-color: cornflowerblue;
+}
+
+#mul {
+    background-color: darkolivegreen;
+}
+
+#divide {
+    background-color: cadetblue;
+}
+
+#equals {
+    background-color: goldenrod;
+}
+
+#mod {
+    background-color: coral;
+}
+
+#clear {
+    background-color: crimson;
+}
+
+#backspace {
+    background-color: lightcyan;
+}
+
 button {
     width: 85px;
     height: 70px;
